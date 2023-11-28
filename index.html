@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rmeileh</title>
+</head>
+<body>
+   
+    <header>
+        <div class="left-section">
+            <img src="Chabibelogo.jpg">
+            <img src="tala2e3logo.jpg">
+            <img src="fersenlogo.jpg">
+        </div>
+
+        <div class="mid-section">
+            <div>Akhawiyat Rmeileh</div>
+        </div>
+
+        <div class="right-section">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+
+        </div>
+    </header>
+
+    <div class="slider-area">
+        <div class="slider-img">
+            <div><img src="all.jpg" alt=""></div>
+            <div><img src="IMG_1245.JPG" alt=""></div>
+            <div><img src="IMG_1248.JPG" alt=""></div>
+            <div><img src="IMG_1269.JPG" alt=""></div>
+            <div><img src="IMG_1271.JPG" alt=""></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="slick.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider-img').slick({
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 2500,
+                fade: true,
+                fadeSpeed:1000
+            });
+        });
+    </script>
+    
+</body>
+</html>
